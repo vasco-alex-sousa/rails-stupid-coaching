@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
   # Defines the root path route ("/")
-  # root "articles#index"
+  root "questions#ask"
+
+  # Defines the ask path route ("/ask")
+  get "/ask", to: "questions#ask"
+
+  # Defines the answer path route ("/answer")
+  get "/answer", to: "questions#answer"
+
+  post '/questions', to: 'questions#create'
 end

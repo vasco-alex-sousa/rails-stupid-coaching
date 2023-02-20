@@ -13,3 +13,94 @@
  *= require_tree .
  *= require_self
  */
+/* Custom Styles */
+
+/* Change the background color of the body to light blue */
+To make the CSS code look more modern with pastel colors, seamless animations, and other relevant improvements, we can do the following:
+
+/* Use a pastel blue background color for the body */
+body {
+background-color: #c7ecee;
+}
+
+/* Use a modern sans-serif font for headings and paragraphs */
+h1, h2, h3, h4, h5, h6, p {
+font-family: 'Montserrat', sans-serif;
+}
+
+/* Use a slightly darker shade of blue for headings */
+h1 {
+color: #2d3436;
+}
+
+/* Add a subtle text shadow to headings for a modern look */
+h1, h2, h3, h4, h5, h6 {
+text-shadow: 1px 1px #dfe6e9;
+}
+
+/* Add a border to images with a soft pastel color */
+img {
+border: 2px solid #dfe6e9;
+}
+
+/* Add a smooth hover effect to links */
+a:hover {
+color: #0984e3;
+transition: color 0.3s ease-in-out;
+}
+
+/* Center align all paragraphs */
+p {
+text-align: center;
+}
+
+/* Increase the font size of all headings */
+h1, h2, h3, h4, h5, h6 {
+font-size: 36px;
+}
+
+/* Add a max-width for the main content area and some padding for breathing room */
+.main-content {
+max-width: 960px;
+margin: 0 auto;
+padding: 20px;
+}
+
+/* Add a pastel blue background color and padding to the main navigation */
+.navbar {
+background-color: #F5F5F5;
+padding: 10px;
+}
+
+/* Change the color of the active link in the navigation */
+.navbar .active a {
+color: #0984e3;
+}
+
+/* Add a smooth transition to all elements for a more seamless feel */
+
+{
+transition: all 0.3s ease-in-out;
+}
+/* Add a subtle box shadow to all elements for depth */
+
+{
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for ask question button */
+.ask-question {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FFC0CB;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.ask-question:hover {
+  background-color: #FF69B4;
+  transform: scale(1.1);
+}
